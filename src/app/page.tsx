@@ -18,7 +18,7 @@ export default function LandingPage() {
     {
       icon: <Workflow className="w-8 h-8 text-primary" />,
       title: 'Live Data Analysis',
-      description: 'Input live sensor data for real-time RUL prediction and immediate operational insights.',
+      description: 'Take live sensor data from the appliance as input for real-time RUL prediction and immediate operational insights.',
     },
     {
       icon: <Gauge className="w-8 h-8 text-primary" />,
