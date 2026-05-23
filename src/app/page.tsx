@@ -197,7 +197,7 @@ export default function LandingPage() {
         <div className="grid grid-cols-1 gap-6 md:grid-cols-3 items-end text-sm text-muted-foreground">
 
           {/* LEFT — Legal */}
-          <div className="text-left">
+          <div className="text-center md:text-left">
             <p>© {new Date().getFullYear()} EstimateRUL Inc.</p>
             <p>All rights reserved.</p>
           </div>
@@ -229,7 +229,7 @@ export default function LandingPage() {
           </div>
 
           {/* RIGHT — Contact Info */}
-          <div className="text-right">
+          <div className="text-center md:text-right">
             <p>
               <a
                 href="mailto:abheelearns@gmail.com"
