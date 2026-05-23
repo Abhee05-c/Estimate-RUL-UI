@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
-import { Gauge, Upload, Workflow, Users, ShieldCheck, Menu, LockIcon} from 'lucide-react';
+import { Gauge, Upload, Workflow, Users, ShieldCheck, Menu, LockIcon, Zap } from 'lucide-react';
 import { Logo } from '@/components/logo';
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet';
 import { cn } from '@/lib/utils';
@@ -115,6 +115,16 @@ export default function LandingPage() {
 
           <div className="relative px-4 md:px-6 text-center text-white flex justify-center">
             <div className="w-full max-w-5xl flex flex-col items-center">
+              <div className="mb-6 inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full border border-blue-500/30 bg-blue-500/10 backdrop-blur-md text-[11px] sm:text-xs font-medium text-blue-400 animate-fade-in-up-1 shadow-[0_0_15px_rgba(59,130,246,0.15)] hover:border-blue-500/50 transition-all duration-300">
+                <span className="relative flex h-2 w-2">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
+                </span>
+                <Zap className="w-3.5 h-3.5 text-blue-400 fill-blue-400/20 animate-pulse" />
+                <span className="tracking-wide uppercase text-[10px] font-bold">Prototype Ready</span>
+                <span className="h-3 w-[1px] bg-blue-500/30"></span>
+                <span className="text-blue-200">Predictive Maintenance System</span>
+              </div>
               <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl font-headline bg-gradient-to-b from-white via-white to-slate-400 bg-clip-text text-transparent leading-tight animate-fade-in-up-1">
                 Engine Health Monitoring & Remaining Useful Life Prediction
               </h1>
