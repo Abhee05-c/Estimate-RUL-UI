@@ -8,7 +8,7 @@ import BackendTest from "@/components/BackendTest";
 
 
 export default function LandingPage() {
-  
+
   const features = [
     {
       icon: <Upload className="w-8 h-8 text-primary" />,
@@ -41,7 +41,7 @@ export default function LandingPage() {
       description: 'All data is encrypted both in transit and at rest to ensure maximum security and compliance.',
     },
   ];
-  
+
   return (
     <div className="flex flex-col min-h-screen bg-background">
       <BackendTest />
@@ -80,7 +80,7 @@ export default function LandingPage() {
                 <SheetTitle className="sr-only">Mobile Navigation</SheetTitle>
               </SheetHeader>
               <nav className="grid gap-6 text-lg font-medium mt-6">
-                 <Link
+                <Link
                   href="/docs"
                   className="text-muted-foreground hover:text-foreground"
                 >
@@ -106,10 +106,10 @@ export default function LandingPage() {
       <main className="flex-1">
         <section className="relative w-full pt-12 pb-24 md:pt-16 md:pb-36 lg:pt-20 lg:pb-40 bg-black overflow-hidden">
           <div className="absolute inset-0 bg-[linear-gradient(to_right,theme(colors.gray.900/80)_1px,transparent_1px),linear-gradient(to_bottom,theme(colors.gray.900/80)_1px,transparent_1px)] bg-[size:30px_30px]"></div>
-          
+
           {/* Contextual scanning grid beam animation */}
           <div className="animate-grid-scan"></div>
-          
+
           {/* Subtle colored glow in the background (pulsing/floating) */}
           <div className="absolute top-1/2 left-1/2 w-[600px] h-[300px] bg-primary/20 rounded-full blur-[140px] pointer-events-none animate-radial-glow"></div>
 
@@ -152,7 +152,7 @@ export default function LandingPage() {
         >
           <div className="px-4 md:px-6 flex justify-center">
             <div className="w-full max-w-6xl flex flex-col items-center">
-              
+
               {/* Heading */}
               <div className="flex flex-col items-center justify-center space-y-4 text-center">
                 <div className="space-y-2">
@@ -202,22 +202,34 @@ export default function LandingPage() {
             <p>All rights reserved.</p>
           </div>
 
-          {/* CENTER — Links (side by side) */}
-          <div className="flex flex-row items-center justify-center gap-4">
-            <Link href="/docs" className="hover:underline underline-offset-4">
-              Documentation
-            </Link>
-            <Link href="#" className="hover:underline underline-offset-4">
-              Terms
-            </Link>
-            <Link href="#" className="hover:underline underline-offset-4">
-              Privacy
-            </Link>
+          {/* CENTER — Links & Developer Info */}
+          <div className="flex flex-col items-center justify-center gap-2">
+            <div className="flex flex-row items-center justify-center gap-4">
+              <Link href="/docs" className="hover:underline underline-offset-4">
+                Documentation
+              </Link>
+              <Link href="#" className="hover:underline underline-offset-4">
+                Terms
+              </Link>
+              <Link href="#" className="hover:underline underline-offset-4">
+                Privacy
+              </Link>
+            </div>
+            <div className="mt-2 text-center text-xs text-muted-foreground">
+              Developed by{" "}
+              <a
+                href="https://portfolio-ap05.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-foreground hover:text-primary underline underline-offset-4 decoration-muted-foreground/40 hover:decoration-primary transition-all duration-200"
+              >
+                AP
+              </a>
+            </div>
           </div>
 
-          {/* RIGHT — Developer Info */}
+          {/* RIGHT — Contact Info */}
           <div className="text-right">
-            <p>Developed by AP</p>
             <p>
               <a
                 href="mailto:abheelearns@gmail.com"
