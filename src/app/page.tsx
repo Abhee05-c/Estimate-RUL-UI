@@ -235,7 +235,7 @@ export default function LandingPage() {
                 href="mailto:abhisekhpadhy2005@gmail.com"
                 className="hover:underline underline-offset-4"
               >
-                abheelearns@gmail.com
+                abhisekhpadhy2005@gmail.com
               </a>
             </p>
             <p>Odisha, India</p>
