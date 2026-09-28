@@ -18,7 +18,7 @@ export default function LandingPage() {
     {
       icon: <Workflow className="w-8 h-8 text-primary" />,
       title: 'Live Data Analysis',
-      description: 'Take live sensor data from the appliance as input for real-time RUL prediction and immediate operational insights.',
+      description: 'Take live sensor data (in progress) from the appliance as input for real-time RUL prediction and immediate operational insights.',
     },
     {
       icon: <Gauge className="w-8 h-8 text-primary" />,
@@ -218,7 +218,7 @@ export default function LandingPage() {
             <div className="mt-2 text-center text-xs text-muted-foreground">
               Developed by{" "}
               <a
-                href="https://portfolio-ap05.vercel.app/"
+                href="https://abhisekhpadhy.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-semibold text-foreground hover:text-primary underline underline-offset-4 decoration-muted-foreground/40 hover:decoration-primary transition-all duration-200"
@@ -232,7 +232,7 @@ export default function LandingPage() {
           <div className="text-center md:text-right">
             <p>
               <a
-                href="mailto:abheelearns@gmail.com"
+                href="mailto:abhisekhpadhy2005@gmail.com"
                 className="hover:underline underline-offset-4"
               >
                 abheelearns@gmail.com
